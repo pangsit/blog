@@ -218,6 +218,14 @@ h3 {
       margin: 0 auto 30px auto; }
     .face-lockup [class^="icon-"] {
       margin: 5px; } }
+@media screen and (max-width: 470px) {
+  .skill-lockup {
+    max-width: 250px; }
+    .skill-lockup .skill-unit {
+      width: 200px;
+      padding: 0 15px; }
+    .skill-lockup .skill-icon span {
+      width: 20px; } }
 @media screen and (max-width: 770px) {
   .skill-lockup {
     margin: 50px auto;
