@@ -180,7 +180,8 @@ h3 {
     content: "";
     display: table; }
   .skill-lockup .skill-unit {
-    width: 350px;
+    width: 300px;
+    padding: 0 25px;
     float: left; }
   .skill-lockup .skill-icon {
     font-size: 0px;
