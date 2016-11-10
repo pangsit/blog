@@ -174,7 +174,6 @@ h3 {
 .skill-lockup {
   max-width: 700px;
   margin: 100px auto;
-  padding-left: 50px;
   color: #999999; }
   .skill-lockup::after {
     clear: both;
