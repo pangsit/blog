@@ -149,6 +149,42 @@ footer {
         color: rgba(0, 0, 0, 0.4);
         text-transform: uppercase; }
 
+@media screen and (max-width: 670px) {
+  footer .lockup {
+    padding: 53px 20px; }
+    footer .lockup .logo {
+      height: 40px;
+      width: 40px; }
+    footer .lockup .content-wrap {
+      margin-left: 20px; }
+      footer .lockup .content-wrap a {
+        font-size: 12px;
+        margin-right: 20px; }
+      footer .lockup .content-wrap .copyright {
+        font-size: 10px; } }
+@media screen and (max-width: 480px) {
+  footer .lockup {
+    padding: 40px 15px; }
+    footer .lockup .logo {
+      height: 35px;
+      width: 35px; }
+    footer .lockup .content-wrap {
+      margin-left: 15px; }
+      footer .lockup .content-wrap a {
+        margin-right: 15px; } }
+@media screen and (max-width: 380px) {
+  footer .lockup {
+    padding: 30px 10px; }
+    footer .lockup .logo {
+      height: 30px;
+      width: 30px; }
+    footer .lockup .content-wrap {
+      margin-left: 12px; }
+      footer .lockup .content-wrap a {
+        font-size: 9px;
+        margin-right: 12px; }
+      footer .lockup .content-wrap .copyright {
+        font-size: 7px; } }
 h3 {
   text-align: center;
   font-size: 14px;
