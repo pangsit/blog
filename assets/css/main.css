@@ -71,6 +71,50 @@ header {
     text-transform: uppercase;
     letter-spacing: 0.2em; }
 
+@media screen and (max-width: 670px) {
+  header .logo {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px; }
+  header nav {
+    margin: 20px 30px 0 0; }
+    header nav a {
+      font-size: 12px; }
+  header h1 {
+    font-size: 50px; }
+    header h1 span {
+      border: white solid 7px; }
+  header .kicker {
+    font-size: 12px; } }
+@media screen and (max-width: 480px) {
+  header {
+    height: 350px; }
+    header .logo {
+      height: 35px;
+      width: 35px;
+      margin-left: 15px; }
+    header nav {
+      margin: 15px 15px 0 0; }
+    header h1 {
+      padding-top: 70px;
+      font-size: 40px; } }
+@media screen and (max-width: 380px) {
+  header .logo {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px; }
+  header nav {
+    margin: 10px 10px 0 0; }
+    header nav a {
+      font-size: 9px;
+      margin-left: 12px; }
+  header h1 {
+    padding-top: 70px;
+    font-size: 35px; }
+    header h1 span {
+      padding: 2px 10px; }
+  header .kicker {
+    font-size: 9px; } }
 footer {
   background: url(../img/74H.jpg) center center;
   background-size: cover; }
@@ -145,6 +189,7 @@ h3 {
     height: 200px;
     width: 200px;
     background: url(../img/face.jpg);
+    border-radius: 50%;
     order: 3; }
   .face-lockup [class^="icon-"] {
     height: 100px;
